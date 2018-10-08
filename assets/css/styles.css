@@ -1,0 +1,76 @@
+/* Whole page */
+body {
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+h1.head {
+    margin: 0;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    float: right;
+}
+
+ul.nav {
+    list-style-type: none;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+/* Main Section */
+main {
+    min-height: calc(95vh - 100px);
+    margin-top: 20px;
+    /* border: 2px solid crimson; */
+}
+
+/* Main menu */
+.button-holder {
+    text-align: center;
+    padding-top: 30vh;
+}
+
+/* Order menu */
+.card.order {
+    min-height: calc(95vh - 100px);
+    border-color: crimson;
+}
+
+.order .card-header {
+    background-color: #444444;
+}
+
+.card-header {
+    font-size: 30px;
+    color: white;
+}
+
+.order.card-header-info {
+    font-size: 16px;
+}
+
+.pickup-delivery {
+    text-align: center;
+}
+
+.pickup-delivery .card-title {
+    margin: 10px 0 20px;
+}
+
+.pickup-delivery .button-holder {
+    padding-top: 40px;
+}
+
+#pickup {
+    margin-right: 20px;
+}
